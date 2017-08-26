@@ -38,6 +38,7 @@ public class Convert {
             OutputStream out = new FileOutputStream(new File("ReportWithVelocity_Out.pdf"));
             Options options = Options.getTo(ConverterTypeTo.PDF).via(ConverterTypeVia.XWPF);
             report.convert(context, options, out);
+            System.out.println("测试git");
 
         } catch (IOException e) {
             e.printStackTrace();

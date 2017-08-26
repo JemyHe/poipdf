@@ -133,6 +133,7 @@ public class MainController{
         contract.setNow(now);
         String convert = convert(MainController.CONTRACT_TEMPLATE_PATH, 2 , contract);
         downloadTemplate(response,convert);
+        System.out.println("测试git提交");
     }
 
 
